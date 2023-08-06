@@ -1,0 +1,45 @@
+{
+    "name": "laravel-phoenix/auto-files-localizer",
+    "description": "Laravel Localization package that auto generate json locale files",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "LaravelPhoenix\\AutoFilesLocalizer\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LaravelPhoenix\\AutoFilesLocalizer\\AutoTranslationServiceProvider"
+            ],
+            "providers-order": {
+                "LaravelPhoenix\\AutoFilesLocalizer\\AutoTranslationServiceProvider": -100,
+                "Illuminate\\Translation\\TranslationServiceProvider": 0
+            },
+            "config": {
+                "auto-files-localizer": [
+                    "auto-translator"
+                ]
+            },
+            "scripts": {
+                "post-install-cmd": [
+                    "php scripts/install.php"
+                ]
+            }
+        }
+    },
+    "authors": [
+        {
+            "name": "Mahmoud Mahmoud"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "illuminate/support": "^8.0",
+        "illuminate/translation": "^8.0",
+        "illuminate/filesystem": "^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
+    }
+}
