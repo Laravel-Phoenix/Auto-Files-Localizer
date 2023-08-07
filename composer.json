@@ -18,7 +18,7 @@
             },
             "config": {
                 "auto-files-localizer": [
-                    "auto-translator"
+                    "auto-localizer"
                 ]
             },
             "scripts": {

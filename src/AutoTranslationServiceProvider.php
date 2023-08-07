@@ -19,7 +19,7 @@ class AutoTranslationServiceProvider extends ServiceProvider implements Deferrab
         });
         
         $this->mergeConfigFrom(
-            __DIR__ . '/../config/auto-translator.php', 'auto-translator'
+            __DIR__ . '/../config/auto-localizer.php', 'auto-localizer'
         );
     }
 
