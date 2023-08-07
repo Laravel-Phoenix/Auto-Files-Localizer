@@ -1,5 +1,7 @@
 # Auto Files Localizer
 
+Laravel Localization package that auto generate json locale files.
+
 ## Installation
 
 First install the package using:

@@ -2,7 +2,6 @@
     "name": "laravel-phoenix/auto-files-localizer",
     "description": "Laravel Localization package that auto generate json locale files",
     "type": "library",
-    "version": "0.0.2-beta",
     "autoload": {
         "psr-4": {
             "LaravelPhoenix\\AutoFilesLocalizer\\": "src/"
