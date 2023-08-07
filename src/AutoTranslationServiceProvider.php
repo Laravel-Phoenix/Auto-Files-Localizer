@@ -10,6 +10,10 @@ class AutoTranslationServiceProvider extends ServiceProvider implements Deferrab
 {
     public function register()
     {
+        if (app()->environment('production') && !config('auto-localizer.production')) {
+            return;
+        }
+        
         $this->app->singleton('translator', function ($app) {
             return new AutoTranslator($app['translation.loader'], $app['config']['app.locale']);
         });

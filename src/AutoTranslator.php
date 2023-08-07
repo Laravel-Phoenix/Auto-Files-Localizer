@@ -9,8 +9,8 @@ class AutoTranslator extends Translator
 {
     public function get($key, array $replace = [], $locale = null, $fallback = true)
     {
-        if (config('auto-translator.enabled')) {
-            $this->saveTranslation($key, app()->getLocale());
+        if (config('auto-localizer.enabled')) {
+            $this->saveTranslation($key, $locale ?: $this->locale);
         }
         
         return parent::get($key, $replace, $locale, $fallback);
