@@ -4,7 +4,6 @@ namespace LaravelPhoenix\AutoFilesLocalizer;
 
 use Illuminate\Contracts\Support\DeferrableProvider;
 use Illuminate\Support\ServiceProvider;
-use Illuminate\Translation\FileLoader;
 
 class AutoTranslationServiceProvider extends ServiceProvider implements DeferrableProvider
 {
