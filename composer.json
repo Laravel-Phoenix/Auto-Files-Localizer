@@ -1,7 +1,16 @@
 {
     "name": "laravel-phoenix/auto-files-localizer",
     "description": "Laravel Localization package that auto generate json locale files",
-    "type": "library",
+    "keywords": [
+        "localization",
+        "laravel",
+        "php",
+        "json",
+        "auto",
+        "phoenix"
+    ],
+    "homepage": "https://github.com/Laravel-Phoenix/Auto-Files-Localizer",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "LaravelPhoenix\\AutoFilesLocalizer\\": "src/"
@@ -30,7 +39,10 @@
     },
     "authors": [
         {
-            "name": "Mahmoud Mahmoud"
+            "name": "Mahmoud Mahmoud",
+            "email": "mahmoud17tr@gmail.com",
+            "homepage": "https://github.com/Mahmoud217TR",
+            "role": "Developer"
         }
     ],
     "require": {
