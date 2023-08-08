@@ -1,4 +1,4 @@
-[![PHP Composer](https://github.com/Laravel-Phoenix/Auto-Files-Localizer/blob/main/.github/workflows/php.yml/badge.svg)](https://github.com/Laravel-Phoenix/Auto-Files-Localizer/blob/main/.github/workflows/php.yml)
+[![PHP Composer](https://github.com/Laravel-Phoenix/Auto-Files-Localizer/actions/workflows/php.yml/badge.svg)](https://github.com/Laravel-Phoenix/Auto-Files-Localizer/actions/workflows/php.yml)
 
 # Auto Files Localizer
 
