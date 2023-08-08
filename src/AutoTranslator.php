@@ -18,7 +18,12 @@ class AutoTranslator extends Translator
 
     private function saveTranslation($key = null, $locale = null): void
 	{
-        $langDir = resource_path('lang');
+        $langDir = config('auto-localizer.path');
+
+        if (!is_dir($langDir)) {
+            mkdir($langDir, 0755, true);
+        }
+        
         $fileName = $locale . '.json';
         $filePath = $langDir . DIRECTORY_SEPARATOR . $fileName;
 
