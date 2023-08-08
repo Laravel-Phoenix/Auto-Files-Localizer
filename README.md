@@ -46,3 +46,7 @@ return [
 ];
 
 ```
+
+## License
+
+This package is open-source software released under the [MIT License](LICENSE).
