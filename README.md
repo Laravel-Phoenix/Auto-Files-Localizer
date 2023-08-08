@@ -1,10 +1,10 @@
 [![PHP Composer](https://github.com/Laravel-Phoenix/Auto-Files-Localizer/actions/workflows/php.yml/badge.svg)](https://github.com/Laravel-Phoenix/Auto-Files-Localizer/actions/workflows/php.yml)
 
-![logo](assets/auto-files-localizer.svg)
-
 # Auto Files Localizer
 
 Laravel Localization package that auto generate json locale files.
+
+![logo](assets/auto-files-localizer.svg)
 
 ## Installation
 
