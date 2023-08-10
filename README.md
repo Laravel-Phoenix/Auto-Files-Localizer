@@ -89,9 +89,9 @@ return [
 ```
 ## Tutorials
 
-[A Step-by-Step Guide on How to Use Auto Files Localizer](https://www.linkedin.com/pulse/how-use-laravel-auto-files-localizer-laravel-phoenix/)
+Linkedin Article: [A Step-by-Step Guide on How to Use Auto Files Localizer](https://www.linkedin.com/pulse/how-use-laravel-auto-files-localizer-laravel-phoenix/)
 
-[Youtube Video (comming soon...)](#)
+Youtube: [Youtube Tutorial](https://youtu.be/rM7J6G2hEf4)
 
 
 ## License
