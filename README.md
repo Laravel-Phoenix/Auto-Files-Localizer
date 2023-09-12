@@ -4,6 +4,12 @@
 
 Laravel Localization package that auto generate json locale files.
 
+## Table of Contents
+* [Installation](#installation)
+* [Usage](#usage)
+* [Tutorials](#tutorials)
+* [License](#license)
+
 ![logo](assets/auto-files-localizer.svg)
 
 ## Installation
@@ -81,6 +87,12 @@ return [
 ];
 
 ```
+## Tutorials
+
+Linkedin Article: [A Step-by-Step Guide on How to Use Auto Files Localizer](https://www.linkedin.com/pulse/how-use-laravel-auto-files-localizer-laravel-phoenix/)
+
+Youtube: [Youtube Tutorial](https://youtu.be/rM7J6G2hEf4)
+
 
 ## License
 
