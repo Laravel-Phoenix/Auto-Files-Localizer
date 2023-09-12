@@ -9,7 +9,7 @@ class AutoTranslator extends Translator
 {
     public function get($key, array $replace = [], $locale = null, $fallback = true)
     {
-        if (config('auto-localizer.enabled')) {
+        if (config('auto-localizer.enabled') && !app()->environment('production')) {
             $this->saveTranslation($key, $locale ?: $this->locale);
         }
         
